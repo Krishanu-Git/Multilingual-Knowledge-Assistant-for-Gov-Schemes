@@ -1,0 +1,67 @@
+{
+  "collected_at_utc": "2026-10-17T09:10:55.069416+00:00",
+  "source": "myScheme public scheme listing/detail endpoints",
+  "schemes_found": 1051,
+  "schemes_exported": 1051,
+  "detail_errors": [
+    {
+      "slug": "sdaocsg",
+      "error": "No detail record returned for slug sdaocsg"
+    },
+    {
+      "slug": "bhmnsp",
+      "error": "No detail record returned for slug bhmnsp"
+    },
+    {
+      "slug": "saaopsg",
+      "error": "No detail record returned for slug saaopsg"
+    },
+    {
+      "slug": "visvasi",
+      "error": "No detail record returned for slug visvasi"
+    },
+    {
+      "slug": "rkpp",
+      "error": "No detail record returned for slug rkpp"
+    },
+    {
+      "slug": "isuidai",
+      "error": "No detail record returned for slug isuidai"
+    },
+    {
+      "slug": "vpby",
+      "error": "No detail record returned for slug vpby"
+    },
+    {
+      "slug": "ab-pmjay",
+      "error": "No detail record returned for slug ab-pmjay"
+    },
+    {
+      "slug": "mdckra",
+      "error": "No detail record returned for slug mdckra"
+    },
+    {
+      "slug": "aogusysuaptl",
+      "error": "No detail record returned for slug aogusysuaptl"
+    },
+    {
+      "slug": "aogusypcvasma",
+      "error": "No detail record returned for slug aogusypcvasma"
+    },
+    {
+      "slug": "makats",
+      "error": "No detail record returned for slug makats"
+    }
+  ],
+  "full_detail_records": 1039,
+  "listing_only_records": 12,
+  "states": [
+    "West Bengal",
+    "Bihar",
+    "Jharkhand"
+  ],
+  "central_schemes_included": true,
+  "age_filter": null,
+  "json_file": "/Users/kdas/Desktop/Multilingual-Knowledge-Assistant-for-Gov-Schemes/data/curated/myscheme_schemes.json",
+  "indexed_in_database": 1051
+}

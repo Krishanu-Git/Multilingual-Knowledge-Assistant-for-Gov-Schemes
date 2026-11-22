@@ -1,0 +1,24 @@
+llm:
+  provider: ollama
+  model: qwen3:4b
+  temperature: 0.1
+embeddings:
+  enabled: true
+  model: qllama/multilingual-e5-large
+  query_prefix: "query: "
+  passage_prefix: "passage: "
+retrieval:
+  top_k: 5
+  minimum_score: 0.05
+  fusion: reciprocal_rank_fusion
+  chunk_size: 900
+  chunk_overlap: 120
+speech:
+  provider: enabled
+  model: mannix/whisper:large-v3-turbo
+  maximum_upload_mb: 20
+storage:
+  backend: sqlite
+  path: storage/database/assistant.sqlite3
+tracking:
+  provider: none

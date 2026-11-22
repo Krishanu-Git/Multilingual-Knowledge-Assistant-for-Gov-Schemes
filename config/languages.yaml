@@ -1,0 +1,4 @@
+languages:
+  en: {name: English, native_name: English, embeddings: true, stt: optional, translation: optional, ui: partial}
+  bn: {name: Bengali, native_name: বাংলা, embeddings: true, stt: optional, translation: optional, ui: partial}
+  hi: {name: Hindi, native_name: हिन्दी, embeddings: true, stt: optional, translation: optional, ui: partial}

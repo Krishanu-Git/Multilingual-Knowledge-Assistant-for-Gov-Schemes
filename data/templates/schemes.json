@@ -1,0 +1,33 @@
+[
+  {
+    "scheme_id": "stable-curator-assigned-id",
+    "scheme_name": "",
+    "scheme_name_original": null,
+    "scheme_name_translations": {},
+    "description": null,
+    "description_translations": {},
+    "benefits": null,
+    "eligibility_summary": null,
+    "required_documents": null,
+    "application_process": null,
+    "application_url": null,
+    "scheme_category": null,
+    "scheme_level": null,
+    "state": null,
+    "district": null,
+    "target_beneficiaries": null,
+    "responsible_department": null,
+    "official_source_url": null,
+    "source_title": null,
+    "source_type": null,
+    "source_language": null,
+    "source_published_date": null,
+    "source_effective_date": null,
+    "source_last_verified_date": null,
+    "source_version": null,
+    "verification_status": "unverified",
+    "verification_evidence": null,
+    "ingestion_status": "pending",
+    "eligibility_rules": []
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "scheme_id": "example-scheme-id",
+    "scheme_name": "Example scheme name",
+    "url": "https://department.gov.in/path/to/official-guidelines.pdf",
+    "title": "Official scheme guidelines",
+    "source_type": "official_pdf",
+    "responsible_department": "Example department",
+    "scheme_level": "central",
+    "state": null
+  }
+]

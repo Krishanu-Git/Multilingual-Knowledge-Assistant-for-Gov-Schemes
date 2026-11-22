@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "government-schemes-assistant"
+version = "0.1.0"
+description = "Local-first multilingual RAG assistant for curated government scheme sources"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+    "pydantic>=2.6",
+    "python-multipart>=0.0.9",
+    "sentence-transformers>=6.2.0",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.32", "requests>=2.31", "streamlit-mic-recorder>=0.0.8"]
+models = ["sentence-transformers>=3.0", "faster-whisper>=1.0", "pypdf>=4.0", "beautifulsoup4>=4.12"]
+dev = ["pytest>=8.0", "httpx>=0.27"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
